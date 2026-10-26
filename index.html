@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Somsubhra Mondal — Principal Data & AI Architect, enterprise data platforms, engineering leadership and AI enablement.">
+  <title>Somsubhra Mondal | Data & AI Architecture</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --surface: #142238;
+      --text: #eef4ff;
+      --muted: #b1bfd3;
+      --accent: #6ed9e5;
+      --border: #2b405b;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.7 system-ui, -apple-system, sans-serif;
+    }
+    a { color: var(--accent); }
+    .container { max-width: 1100px; margin: auto; padding: 0 24px; }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 18px 0;
+    }
+    nav { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+    nav a { margin-right: 18px; text-decoration: none; }
+    .brand { font-weight: 800; color: white; }
+    .hero { padding: 100px 0 80px; }
+    .eyebrow { color: var(--accent); font-weight: 700; letter-spacing: 2px; }
+    h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); line-height: 1.13; margin: 18px 0; }
+    h2 { font-size: 2rem; margin-bottom: 20px; }
+    h3 { margin-top: 0; }
+    .lead { font-size: 1.2rem; color: var(--muted); max-width: 780px; }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #07131c;
+      padding: 12px 22px;
+      margin: 14px 12px 0 0;
+      border-radius: 8px;
+      font-weight: 750;
+      text-decoration: none;
+    }
+    .btn.secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    section { padding: 65px 0; border-top: 1px solid var(--border); }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 26px;
+    }
+    .card p, .muted { color: var(--muted); }
+    .tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+    .tag {
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      padding: 5px 13px;
+      color: var(--muted);
+      font-size: .88rem;
+    }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .stat strong { display: block; font-size: 2rem; color: var(--accent); }
+    footer { padding: 35px 0; color: var(--muted); border-top: 1px solid var(--border); }
+    @media(max-width: 700px) {
+      .grid, .stats { grid-template-columns: 1fr; }
+      .hero { padding: 65px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <span class="brand">SOMSUBHRA MONDAL</span>
+      <div>
+        <a href="#about">About</a>
+        <a href="#work">Architecture</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container hero">
+      <div class="eyebrow">PRINCIPAL ENGINEER · DATA & AI ARCHITECTURE</div>
+      <h1>Engineering data platforms.<br>Enabling intelligent products.</h1>
+      <p class="lead">
+        I am Somsubhra Mondal, a Data & AI architecture leader with
+        15+ years of experience designing enterprise data platforms,
+        modernizing analytics ecosystems, and connecting engineering
+        strategy with measurable business outcomes.
+      </p>
+      <a class="btn" href="#work">Explore My Work</a>
+      <a class="btn secondary" href="https://github.com/somsubhra-mondal">GitHub Profile</a>
+    </div>
+
+    <section id="about">
+      <div class="container">
+        <h2>Architecture at enterprise scale</h2>
+        <p class="lead">
+          At Electronic Arts, I lead technical architecture and engineering
+          direction for analytics and lakehouse capabilities spanning
+          multiple game titles and business domains. My work combines
+          hands-on engineering, platform strategy, data governance,
+          technical mentorship, and cross-functional collaboration.
+        </p>
+        <div class="stats">
+          <div class="card stat"><strong>15+</strong>Years of experience</div>
+          <div class="card stat"><strong>25+</strong>Game titles supported</div>
+          <div class="card stat"><strong>30+</strong>Domain data products</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <h2>Selected architecture & engineering work</h2>
+        <p class="muted">High-level case studies. Proprietary implementation details are excluded.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Enterprise Analytics & Lakehouse Platform</h3>
+            <p>
+              Platform architecture across gaming domains, integrating
+              cloud data infrastructure, governed data products,
+              reusable engineering patterns, and data mesh principles.
+            </p>
+            <div class="tags">
+              <span class="tag">Snowflake</span>
+              <span class="tag">AWS / GCP</span>
+              <span class="tag">Data Mesh</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Product Measurement & Player Analytics</h3>
+            <p>
+              End-to-end product measurement capabilities supporting
+              consistent metrics, marketing analytics, and
+              personalization-related decision-making.
+            </p>
+            <div class="tags">
+              <span class="tag">Gaming Analytics</span>
+              <span class="tag">Data Modeling</span>
+              <span class="tag">Product Metrics</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>AI-Assisted Data Quality Architecture</h3>
+            <p>
+              An architectural approach to metadata-grounded AI rule
+              generation, automated SQL validation, engineering review,
+              and governed data quality operations.
+            </p>
+            <p><small>Architecture concept; not presented as a production deployment.</small></p>
+            <div class="tags">
+              <span class="tag">Generative AI</span>
+              <span class="tag">Data Quality</span>
+              <span class="tag">Governance</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Modern Lakehouse Architecture</h3>
+            <p>
+              Architecture patterns and technical trade-offs for
+              Apache Iceberg, distributed processing, data lifecycle
+              management, and Snowflake interoperability.
+            </p>
+            <p><small>Technical architecture focus; implementation scope varies.</small></p>
+            <div class="tags">
+              <span class="tag">Apache Iceberg</span>
+              <span class="tag">Spark</span>
+              <span class="tag">Snowflake</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="expertise">
+      <div class="container">
+        <h2>Technical expertise & leadership</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Data Platforms</h3>
+            <p>Snowflake, AWS, GCP, Spark, Apache Iceberg, SQL, dbt, Airflow and cloud-native data architecture.</p>
+          </div>
+          <div class="card">
+            <h3>AI & Analytics Enablement</h3>
+            <p>AI-ready data architecture, RAG patterns, ML platform integration, product analytics and AI-assisted engineering.</p>
+          </div>
+          <div class="card">
+            <h3>Trust & Governance</h3>
+            <p>Data contracts, quality frameworks, observability, lineage, metadata management and platform reliability.</p>
+          </div>
+          <div class="card">
+            <h3>Engineering Leadership</h3>
+            <p>Architecture strategy, technical roadmaps, reference implementations, design reviews, mentoring and cross-team alignment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Let's connect</h2>
+        <p class="lead">
+          Interested in enterprise data architecture, AI engineering,
+          modern data platforms, and technical leadership opportunities.
+        </p>
+        <a class="btn" href="https://github.com/somsubhra-mondal">View GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Somsubhra Mondal · Data & AI Architecture
+    </div>
+  </footer>
+</body>
+</html>
