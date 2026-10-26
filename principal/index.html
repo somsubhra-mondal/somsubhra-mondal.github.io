@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Somsubhra Mondal — Principal Data & AI Architect. Enterprise data platforms, lakehouse modernization, semantic systems, and ML foundations." />
+    <meta name="theme-color" content="#071113" />
+    <title>Somsubhra Mondal — Principal Data & AI Architect</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script>document.documentElement.dataset.theme = localStorage.getItem('principal-theme') || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');</script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Somsubhra Mondal, home">
+        <span class="brand-mark" aria-hidden="true">SM</span>
+        <span>Somsubhra Mondal</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#architecture">Architecture</a>
+        <a href="#work">Case studies</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.6 5.6 7 7m10 10 1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4"/><circle cx="12" cy="12" r="4"/></svg>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Principal Data &amp; AI Architect</p>
+          <h1>Architecture that turns<br /><span>data complexity</span><br />into leverage.</h1>
+          <p class="hero-intro">I design enterprise platforms where ingestion, open data, trusted metrics, and ML features work as one system—built for adoption, operational clarity, and sustainable economics.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore the decisions <span aria-hidden="true">↘</span></a>
+            <a class="button button-ghost" href="#architecture">View architecture</a>
+          </div>
+        </div>
+        <aside class="hero-aside reveal" aria-label="Selected architecture outcomes">
+          <p class="aside-label">Selected outcomes</p>
+          <dl>
+            <div><dt>4×</dt><dd>faster title onboarding</dd></div>
+            <div><dt>40–50%</dt><dd>lower query time and compute cost</dd></div>
+            <div><dt>$800K</dt><dd>annual Snowflake savings</dd></div>
+          </dl>
+          <p class="evidence-note">Measured outcomes from the supplied career record.</p>
+        </aside>
+        <div class="hero-footer reveal">
+          <span>Enterprise platforms</span><span>Lakehouse</span><span>Semantic AI</span><span>ML foundations</span>
+        </div>
+      </section>
+
+      <section class="manifesto section-shell reveal" aria-labelledby="manifesto-title">
+        <p class="section-index">01 / Point of view</p>
+        <div>
+          <h2 id="manifesto-title">The platform is not the technology stack. <em>It is the paved road teams choose to use.</em></h2>
+          <p>My work connects enterprise architecture to the practical details that make a platform credible: metadata as the control plane, open table formats as the data plane, certified semantics as the trust layer, and cost signals as a design constraint.</p>
+        </div>
+      </section>
+
+      <section class="architecture section-shell" id="architecture" aria-labelledby="architecture-title">
+        <div class="section-heading reveal">
+          <div><p class="section-index">02 / Reference architecture</p><h2 id="architecture-title">One platform. Clear contracts.</h2></div>
+          <p>A conceptual view of the EA data platform pattern: teams keep domain context while shared services absorb repeated engineering work.</p>
+        </div>
+
+        <div class="architecture-panel reveal" data-architecture>
+          <div class="arch-toolbar">
+            <p><span class="live-indicator"></span> Conceptual system flow</p>
+            <button class="motion-toggle" type="button" aria-pressed="false">Pause animation</button>
+          </div>
+          <div class="arch-stage">
+            <svg class="flow-lines" viewBox="0 0 1000 510" preserveAspectRatio="none" aria-hidden="true">
+              <path class="flow flow-1" d="M135 112 C260 112 255 245 380 245" />
+              <path class="flow flow-2" d="M135 255 C260 255 255 255 380 255" />
+              <path class="flow flow-3" d="M135 398 C260 398 255 265 380 265" />
+              <path class="flow flow-4" d="M500 255 C620 255 620 130 735 130" />
+              <path class="flow flow-5" d="M500 255 C620 255 620 255 735 255" />
+              <path class="flow flow-6" d="M500 255 C620 255 620 380 735 380" />
+            </svg>
+            <div class="arch-column sources">
+              <p class="arch-label">Domain signals</p>
+              <button class="arch-node" type="button" data-node="Telemetry streams" data-detail="Domain-specific event streams remain close to title context; shared contracts standardize how they enter the platform."><span>01</span>Telemetry streams</button>
+              <button class="arch-node" type="button" data-node="Business systems" data-detail="Operational and SaaS sources enter through configuration-led connectors with repeatable controls."><span>02</span>Business systems</button>
+              <button class="arch-node" type="button" data-node="Partner data" data-detail="External datasets follow the same quality, metadata, and deployment guardrails as internal sources."><span>03</span>Partner data</button>
+            </div>
+            <div class="arch-core">
+              <p class="arch-label">Shared data plane</p>
+              <button class="core-orbit" type="button" data-node="Metadata control plane" data-detail="A configuration-driven control plane coordinates schema, quality, observability, and deployment patterns.">
+                <span class="orbit-ring ring-one"></span><span class="orbit-ring ring-two"></span>
+                <strong>Metadata<br />control plane</strong>
+              </button>
+              <div class="core-tags"><span>Iceberg</span><span>Quality</span><span>Security</span><span>Observability</span></div>
+            </div>
+            <div class="arch-column consumers">
+              <p class="arch-label">Trusted consumption</p>
+              <button class="arch-node" type="button" data-node="Semantic products" data-detail="Certified definitions and semantic contracts create consistent metrics for reporting and conversational analytics."><span>04</span>Semantic products</button>
+              <button class="arch-node" type="button" data-node="ML feature platform" data-detail="Reusable, consistent features support model training and scoring; Data Science retains model ownership."><span>05</span>ML feature platform</button>
+              <button class="arch-node" type="button" data-node="AI interfaces" data-detail="Governed tool interfaces ground natural-language answers in certified metrics and defined access paths."><span>06</span>AI interfaces</button>
+            </div>
+          </div>
+          <div class="arch-detail" role="status" aria-live="polite"><span>Inspect a component</span><p>Select any node to explore its architectural role.</p></div>
+        </div>
+      </section>
+
+      <section class="case-studies section-shell" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <div><p class="section-index">03 / Selected decisions</p><h2 id="work-title">Architecture under pressure.</h2></div>
+          <p>Four case studies framed around the decision, the system pattern, and the measured result—not a list of technologies.</p>
+        </div>
+
+        <div class="case-layout reveal">
+          <div class="case-tabs" role="tablist" aria-label="Case studies">
+            <button id="tab-ingestion" role="tab" aria-selected="true" aria-controls="panel-ingestion" tabindex="0"><span>01</span><strong>Make onboarding configuration, not construction</strong><small>Metadata-driven ingestion</small></button>
+            <button id="tab-iceberg" role="tab" aria-selected="false" aria-controls="panel-iceberg" tabindex="-1"><span>02</span><strong>Open the lakehouse without reopening risk</strong><small>Iceberg modernization</small></button>
+            <button id="tab-semantics" role="tab" aria-selected="false" aria-controls="panel-semantics" tabindex="-1"><span>03</span><strong>Put a semantic contract before the AI</strong><small>Trusted intelligence</small></button>
+            <button id="tab-economics" role="tab" aria-selected="false" aria-controls="panel-economics" tabindex="-1"><span>04</span><strong>Treat cost as a platform signal</strong><small>Platform economics</small></button>
+          </div>
+
+          <div class="case-panels">
+            <article id="panel-ingestion" role="tabpanel" aria-labelledby="tab-ingestion">
+              <p class="case-kicker">Control plane / repeatability / adoption</p>
+              <h3>Metadata-driven ingestion</h3>
+              <p class="case-lede">New titles previously required bespoke pipelines. The architectural move was to express a title as configuration and make validation, observability, and deployment controls part of the framework.</p>
+              <div class="case-grid"><div><span>Constraint</span><p>Different telemetry shapes and local ownership across title teams.</p></div><div><span>Decision</span><p>Separate metadata control from runtime execution; standardize the repeatable controls.</p></div><div><span>Outcome</span><p>Onboarding moved from four two-week sprints to one.</p></div></div>
+              <blockquote>“Platforms beat projects when the pattern repeats.”</blockquote>
+            </article>
+            <article id="panel-iceberg" role="tabpanel" aria-labelledby="tab-iceberg" hidden>
+              <p class="case-kicker">Open format / migration patterns / optionality</p>
+              <h3>Apache Iceberg modernization</h3>
+              <p class="case-lede">Legacy external tables were costly, slow, and optimized around a single engine. The response: an open table format with repeatable migration patterns and shared quality, metadata, and security controls.</p>
+              <div class="case-grid"><div><span>Constraint</span><p>Performance drag, cost pressure, and engine lock-in.</p></div><div><span>Decision</span><p>Adopt Iceberg and codify the migration path across more than 100 data objects.</p></div><div><span>Outcome</span><p>Query time and compute cost fell 40–50%, with multi-engine readability.</p></div></div>
+              <blockquote>Open architecture is useful when the operating model is equally deliberate.</blockquote>
+            </article>
+            <article id="panel-semantics" role="tabpanel" aria-labelledby="tab-semantics" hidden>
+              <p class="case-kicker">Certified metrics / semantic models / governed AI</p>
+              <h3>Semantic layer &amp; conversational analytics</h3>
+              <p class="case-lede">Different titles defined metrics differently. The reporting product standardized definitions first, then exposed certified metrics through two AI-ready semantic models and a cached MCP tool layer.</p>
+              <div class="case-grid"><div><span>Constraint</span><p>Cross-title metrics lacked consistency and analyst trust.</p></div><div><span>Decision</span><p>Ground natural-language questions in semantic contracts—not raw tables.</p></div><div><span>Outcome</span><p>80+ analysts use the system for 200+ questions per day.</p></div></div>
+              <blockquote>AI on messy data gives the wrong answer faster. The semantic layer comes first.</blockquote>
+            </article>
+            <article id="panel-economics" role="tabpanel" aria-labelledby="tab-economics" hidden>
+              <p class="case-kicker">Workload design / telemetry / ownership</p>
+              <h3>Platform cost optimization</h3>
+              <p class="case-lede">Snowflake spend was growing faster than usage. Workloads were rebalanced, retention tightened, and cost telemetry put in front of the teams making consumption decisions.</p>
+              <div class="case-grid"><div><span>Constraint</span><p>Cost growth without clear ownership at the point of consumption.</p></div><div><span>Decision</span><p>Combine architectural levers with transparent, team-level cost signals.</p></div><div><span>Outcome</span><p>$800K annual savings—about 30%—sustained year over year.</p></div></div>
+              <blockquote>Visibility changes behavior faster than rules do.</blockquote>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="ml-feature section-shell reveal" aria-labelledby="ml-title">
+        <div class="feature-number" aria-hidden="true">05</div>
+        <div class="feature-copy">
+          <p class="section-index">04 / ML foundations</p>
+          <h2 id="ml-title">Consistent features.<br />Clear ownership.</h2>
+          <p>I architected the feature store and data pipelines that support personalization models across training and scoring. The boundary is intentional: platform engineering owns reliable data and feature contracts; Data Science owns the models.</p>
+          <p class="feature-result"><strong>Business connection</strong> Campaigns powered by those models contributed to up to 20% revenue lift on a major AAA sports title.</p>
+        </div>
+        <div class="feature-loop" aria-label="Feature platform lifecycle">
+          <div><span>01</span><strong>Source</strong><small>governed signals</small></div>
+          <div><span>02</span><strong>Define</strong><small>feature contracts</small></div>
+          <div><span>03</span><strong>Serve</strong><small>training + scoring</small></div>
+          <div><span>04</span><strong>Observe</strong><small>freshness + quality</small></div>
+        </div>
+      </section>
+
+      <section class="experience section-shell" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading reveal">
+          <div><p class="section-index">05 / Experience</p><h2 id="experience-title">Built across systems<br />and situations.</h2></div>
+          <p>Architecture depth shaped by enterprise platform delivery and fifteen years of consulting across complex industries.</p>
+        </div>
+        <div class="timeline reveal">
+          <article>
+            <div><p class="timeline-date">Current portfolio</p><h3>Enterprise data &amp; AI platforms</h3></div>
+            <div><p>Technical direction for an EA-scale platform spanning 25+ titles and approximately 5 PB across Snowflake, AWS, and GCP.</p><ul><li>Metadata-driven ingestion and shared platform controls</li><li>Iceberg modernization and open data patterns</li><li>Semantic products, conversational analytics, and ML foundations</li><li>Architecture standards, RFCs, reference implementations, and design reviews</li></ul></div>
+          </article>
+          <article>
+            <div><p class="timeline-date">2006—2021</p><h3>Cognizant</h3><p class="timeline-role">Architect &amp; engineer → Manager → Senior Manager</p></div>
+            <div><p>Fifteen years in consulting across 40+ Fortune 500 client programs in retail, travel and hospitality, telecom, loyalty, insurance, financial services, media, and consumer goods.</p><ul><li>Solution architecture and governed delivery patterns</li><li>Reusable models, automated testing, and review gates</li><li>25% faster governed delivery through repeatable practices</li></ul></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="principles section-shell reveal" aria-labelledby="principles-title">
+        <p class="section-index">06 / Operating principles</p>
+        <div>
+          <h2 id="principles-title">How I make architecture real.</h2>
+          <ol>
+            <li><span>01</span><h3>Start with the repeated decision.</h3><p>Find where teams repeatedly spend judgment and engineering time; that is where a platform earns its place.</p></li>
+            <li><span>02</span><h3>Prototype the path.</h3><p>Use MVPs and reference implementations to expose trade-offs before asking teams to adopt a standard.</p></li>
+            <li><span>03</span><h3>Protect local context.</h3><p>Standardize what creates measurable value while preserving the domain knowledge that makes each product distinct.</p></li>
+            <li><span>04</span><h3>Measure the system.</h3><p>Treat quality, adoption, latency, and cost as feedback signals—not as separate after-the-fact controls.</p></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact section-shell reveal" id="contact" aria-labelledby="contact-title">
+        <p class="section-index">07 / Next conversation</p>
+        <div>
+          <h2 id="contact-title">Looking for a principal architect who connects platform strategy to working systems?</h2>
+          <p>I’m interested in complex data and AI platform problems where technical judgment, cross-team influence, and a bias for reusable patterns matter.</p>
+          <a class="button button-primary" href="https://github.com/somsubhra-mondal" target="_blank" rel="noreferrer">Connect on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span data-year></span> Somsubhra Mondal</p>
+      <p>Principal Data &amp; AI Architect</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
